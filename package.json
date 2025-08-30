@@ -1,0 +1,30 @@
+{
+  "name": "smart-pdf",
+  "version": "1.0.0",
+  "description": "��#\u0000s\u0000m\u0000a\u0000r\u0000t\u0000-\u0000p\u0000d\u0000f\u0000\r\u0000 \u0000",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsup",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint 'src/**/*.{ts,tsx}'",
+    "lint:fix": "eslint 'src/**/*.{ts,tsx}' --fix",
+    "format": "prettier --write 'src/**/*.{ts,tsx,json,md}'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "npm": "^11.5.2",
+    "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.41.0",
+    "@typescript-eslint/parser": "^8.41.0",
+    "eslint": "^9.34.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "prettier": "^3.6.2",
+    "tsup": "^8.5.0"
+  }
+}
